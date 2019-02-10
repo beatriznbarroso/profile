@@ -1,0 +1,78 @@
+body {
+  background-color: #fafafa;
+  color: rgba(46, 52, 56, 1);
+  font-family: 'Monda', sans-serif;
+  font-size: 15px;
+  line-height: 150%;
+}
+h1, h2, h3 {
+  color: #03a87c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 400px;
+  line-height: 28px;
+}
+
+h2, h4 {
+  color: rgba(0,0,0,.54);
+  font-size: 20px;
+  font-weight: 100px;
+  line-height: normal;
+}
+h3{
+  font-size: 18px;
+  font-weight: 80px;
+  line-height: 15px;
+}
+a{
+  color: grey;
+  text-decoration: none;
+}
+a:hover{
+  color: #03a87c;
+}
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1BCB7F;
+  transition: background 0.3s ease;
+}
+.btn-flat:hover {
+  background: rgb(122, 201, 180);
+  color: white;
+}
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+.card{
+  background-color: #eceff1;
+  border-radius:3px;
+  box-shadow: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+}
+.title-movies{
+  color: #6C6E6F;
+  font-size: 24px;
+  font-family: 'Monda', sans-serif;
+}
+.img-circle{
+  width:175px;
+  height: 175px;
+  border-radius: 150px;
+}
+.list-inline {
+  text-decoration: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+#movies td {
+    padding: 10px;
+}
+
